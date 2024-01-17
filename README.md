@@ -20,7 +20,7 @@ It creates a backup of the original file before making any changes.
 Usage:
 -------------
 1. Select the ".lpl" playlist file you want to edit.
-2. Browse or enter the new new/current rom path.
+2. Browse or enter the new/current rom path.
 
 Example:
  - Playlist File: `C:/retroarch/playlists/playlist.lpl`
