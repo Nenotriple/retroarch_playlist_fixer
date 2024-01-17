@@ -7,7 +7,7 @@
 </p>
 
 
-Description:
+📜 Description:
 -------------
 This Python script allows you to redefine the `path` and `db_name` in your JSON formatted .lpl files.
 It creates a backup of the original file before making any changes.
@@ -17,12 +17,37 @@ It creates a backup of the original file before making any changes.
 `db_name` will use the same name as the selected `.lpl` file.
 
 
-Usage:
+📝 Usage:
 -------------
 1. Select the `.lpl` playlist file you want to edit.
 2. Browse or enter the new/current rom path.
 3. Click `Run!`
 
 Example:
- - Playlist File: `C:/retroarch/playlists/playlist.lpl`
- - Rom Path: `C:/roms/system/`
+ - Playlist File: `C:/retroarch/playlists/Atari - 2600.lpl`
+ - Rom Path: `C:/roms/Atari - 2600/`
+
+
+📂 Folder Structure:
+-------------
+
+Only use with roms in a base folder like this👇
+```
+System
+├── Game 1
+├── Game 2
+├── Game 3
+└── Game 4
+```
+
+Do not use with roms in subfolders like this👇
+```
+System
+├── A
+│   ├── Game 1
+│   └── Game 2
+└── B
+    ├── Game 1
+    └── Game 2
+```
+*Using this app with a playlist that's setup with subfolders will break the playlist!!!*
