@@ -21,6 +21,7 @@ Usage:
 -------------
 1. Select the ".lpl" playlist file you want to edit.
 2. Browse or enter the new/current rom path.
+3. Click `Run!`
 
 Example:
  - Playlist File: `C:/retroarch/playlists/playlist.lpl`
